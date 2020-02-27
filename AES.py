@@ -9,7 +9,7 @@ unpad = lambda s: s[:-ord(s[len(s) - 1:])]
 
 base64pad = lambda s: s + '=' * (4 - len(s) % 4)
 base64unpad = lambda s: s.rstrip("=")
-encrypt_key = 'LKHlhb899Y09olUi'
+encrypt_key = 'LKHlhb899Y09olUidsv432de'
 
 
 def encrypt(key, msg):
